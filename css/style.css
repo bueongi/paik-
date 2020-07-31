@@ -28,7 +28,7 @@ ul,li{list-style:none;}
   position:absolute;
   top:17px;
 }
-.header_logo>img{
+.header_logo>a>img{
   width:32px;
   height:32px;
   position:absolute;
