@@ -69,6 +69,7 @@ ul,li{list-style:none;}
   left:6px;
   bottom:20px;
 }
+.bx-controls-direction{display:none;}
 .bx-wrapper .bx-pager.bx-default-pager a{
   background-color:#fff;
 }
