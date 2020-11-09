@@ -25,8 +25,11 @@
   <title>CEO_HELLO</title>
   <!-- 파비콘 -->
   <link rel="shortcut icon" href="./images/favicon.png">
-
-  <link rel="stylesheet" href="css/ceo_hello.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/ceo_hello.css">
 
   <style></style>
 </head>
@@ -36,7 +39,7 @@
       <h1 class="header_left">
         <div class="header_img">
           <a href="index.html">
-            <img src="./images/mainlogo.png" alt="메인로고">
+            <img src="./images/paik_logo.png" alt="메인로고">
           </a>
         </div>
         <div class="header_tit">
@@ -59,20 +62,66 @@
           </li>
         </ul>
         <ul class="nav">
-          <li>빽다방</li>
-          <li>메뉴</li>
-          <li>소식</li>
-          <li>커뮤니티</li>
-          <li>매장안내</li>
-          <li>창업안내</li>
-          <li>고객의 소리</li>
+          <li>
+            <a href="#">빽다방</a>
+            <ul class="sub_nav">
+              <li><a href="./ceo_hello.html">CEO 인사말</a></li>
+              <li><a href="#">빽다방 소개</a></li>
+              <li><a href="#">커피 이야기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">메뉴</a>
+            <ul class="sub_nav">
+              <li><a href="./new_menu.html">신메뉴</a></li>
+              <li><a href="#">커피</a></li>
+              <li><a href="#">음료</a></li>
+              <li><a href="#">아이스크림/디저트</a></li>
+              <li><a href="#">빽스치노</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">소식</a>
+            <ul class="sub_nav">
+              <li><a href="#">소식</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">친절 우수매장</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">커뮤니티</a>
+            <ul class="sub_nav">
+              <li><a href="#">커피 클래스</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">매장안내</a>
+            <ul class="sub_nav">
+              <li><a href="#">매장찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">창업안내</a>
+            <ul class="sub_nav">
+              <li><a href="#">가맹정보 및 절차</a></li>
+            </ul>
+          </li>
+          <li><a href="#">고객의 소리</a></li>
         </ul>
       </div>
     </div>
     <div class="section mainbanner">
       <img src="./images/mainbanner_img.jpg" alt="메인배너">
       <ul class="nav">
-        <li class="yellow">CEO인사말</li><li>빽다방 소개</li><li>커피 이야기</li>
+        <a href="./ceo_hello.html">
+          <li class="yellow">CEO인사말</li>
+        </a>
+        <a href="#">
+          <li>빽다방 소개</li>
+        </a>
+        <a href="#">
+          <li>커피 이야기</li>
+        </a>
       </ul>
     </div>
     <div class="section sub_banner container">
@@ -154,7 +203,9 @@
     </div>
     <div class="footer">
       <div>
-        <img src="./images/footer_logo.png" alt="푸터로고">
+        <a href="index.html">
+          <img src="./images/footer_logo.png" alt="푸터로고">
+        </a>
       </div>
       <form>
         <input type="button" value="패밀리 사이트 바로가기">
@@ -167,5 +218,6 @@
       
     </div>
   </div>
+  <script src="./js/default.js"></script>
 </body>
 </html>

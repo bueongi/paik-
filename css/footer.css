@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+/* footer */
+.footer{
+   height:317px;
+   border-top:3px solid #f1ae1d;
+   position:relative;
+}
+.footer img{
+   width:359px;
+   height:95px;
+   position:absolute;
+   top:21px;
+   left:760px;
+}
+.footer>form{
+   position:absolute;
+   right:383px;
+}
+.footer input{
+   width:190px;
+   height:29px;
+   border:1px solid #333;
+   margin-top:69px;
+   padding-right:20px;
+   cursor:pointer;
+}
+.footer>h2{
+   margin-top:150px;
+   font-weight:normal;
+   font-size:15px;
+   color:#333;
+   text-align:center;
+   line-height:27px;
+}
+.footer>p{
+   margin-top:21px;
+   font-weight:normal;
+   font-size:15px;
+   color:#ccc;
+   text-align:center;
+}
