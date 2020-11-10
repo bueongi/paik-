@@ -9,29 +9,30 @@
   height:500px;
 }
 .section.mainbanner>.nav{
-  font-weight:normal;
+  font-weight:lighter;
   font-size:14px;
   color:#000;
   position:absolute;
   left:37%;
   top:78%;
+  cursor:pointer;
 }
 .section.mainbanner>.nav li{
   display:inline-block;
-  margin-top:-10px;
+  margin:-5rem 0 0 -1rem;
   background:#fff;
   border:1px solid #999;
   border-left:none;
 }
 .section.mainbanner>.nav li{
-  margin-right:-4px;
   padding:15px 60px;
   background:#fff;
   border-left:1px solid #999;
 }
-.section.mainbanner>.nav>a:first-child li{
+.section.mainbanner>.nav a:first-child li{
   background:#f1ae1d;
 }
+
 
 /* sub-banner */
 .section.sub_banner.container{

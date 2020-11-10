@@ -1,6 +1,5 @@
 @charset 'utf-8';
 
-
 /* mainbanner */
 .section{
   height:1333px;
@@ -10,7 +9,7 @@
   height:500px;
 }
 .section.mainbanner>.nav{
-  font-weight:normal;
+  font-weight:lighter;
   font-size:14px;
   color:#000;
   position:absolute;
@@ -20,28 +19,24 @@
 }
 .section.mainbanner>.nav li{
   display:inline-block;
-  margin-top:-10px;
-  margin-right:-4px;
+  margin:-5rem 0 0 -.2rem;
   background:#fff;
   border:1px solid #999;
   border-left:none;
 }
 .section.mainbanner>.nav .yellow{
-  margin-right:-3px;
   padding:15px 60px;
   background:#f1ae1d;
   border-left:1px solid #999;
 }
-.section.mainbanner>.nav>a:nth-child(2) li,
-.section.mainbanner>.nav>a:nth-child(3) li{
-  margin-right:-3px;
+.section.mainbanner>.nav a:nth-child(2) li,
+.section.mainbanner>.nav a:nth-child(3) li{
   padding:15px 66px;
 }
-.section.mainbanner>.nav>a:nth-child(4) li{
-  margin-right:-4px;
+.section.mainbanner>.nav a:nth-child(4) li{
   padding:15px 40px;
 }
-.section.mainbanner>.nav>a:nth-child(5) li{
+.section.mainbanner>.nav a:nth-child(5) li{
   padding:15px 55px;
 }
 
